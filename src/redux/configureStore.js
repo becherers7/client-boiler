@@ -4,6 +4,7 @@ import { composeWithDevTools } from "redux-devtools-extension";
 import monitorReducersEnhancer from "./enhancers/monitorReducers";
 import loggerMiddleware from "./middleware/logger";
 import rootReducer from "./reducers";
+
 export default function configureStore(preloadedState) {
   const middlewares = [loggerMiddleware, thunkMiddleware];
   const middlewareEnhancer = applyMiddleware(...middlewares);
