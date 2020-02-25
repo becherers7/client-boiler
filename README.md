@@ -1,6 +1,6 @@
 This is some boiler for a react and redux front end application.
 
-It's compatible with another repo of mine, java-api-boiler, for java and react full stack.
+It's compatible with two other repos of mine, java-api-boiler or node-api-boiler, for java and react full stack.
 
 
 ######IF YOU DO NOT WANT TO USE THE JAVA BACKEND BOILER#######
