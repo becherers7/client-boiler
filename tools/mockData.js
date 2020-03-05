@@ -1,6 +1,5 @@
 const people = [];
 
-// for (i = 0; i < 4; i++) {
 people.push(
   {
     id: "1",
@@ -21,7 +20,7 @@ people.push(
     career: "Product Owner"
   }
 );
-// }
+
 
 module.exports = {
   people
